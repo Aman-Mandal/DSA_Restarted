@@ -27,7 +27,7 @@ public class EvenDigits {
     }
 
     // for finding the digits
-    static public int numberOfDigits(int num){
+    public static int numberOfDigits(int num){
         int count = 0;
 
         if(num == 0){
