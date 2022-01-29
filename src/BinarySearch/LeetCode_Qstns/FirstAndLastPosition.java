@@ -10,7 +10,7 @@ public class FirstAndLastPosition {
     /* Algorithm :
         1. Do the BS and find the target
         2. Try finding the first occurrence
-        3. For first occurrence we will do binary search again on the left side of our element found
+        3. For first occurrence we will do binary search again on the left side of our target found
         4. if we found any occurence on left ..it will be the new first occurrence.
         5. And same goes for the right side for last occurrence
      */
