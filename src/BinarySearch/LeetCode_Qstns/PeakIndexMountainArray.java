@@ -11,7 +11,6 @@ package BinarySearch.LeetCode_Qstns;
     5. if arr[mid] < arr[mid + 1] it means we are in the ascending part
     6. so we will check the right side for peak i.e start = mid + 1
     7. at last start and end both will point on the peal element ... so return end or start
-
  */
 public class PeakIndexMountainArray {
 
