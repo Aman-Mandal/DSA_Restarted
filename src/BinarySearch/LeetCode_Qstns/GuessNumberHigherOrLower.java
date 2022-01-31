@@ -11,20 +11,20 @@ public class GuessNumberHigherOrLower {
         int start = 1;
         int end = n;
 
-        while (start <= end){
-            int mid = start + (end - start)/ 2;
-            int guess = guess(mid);
-
-            if(guess == 1){
-                start = mid + 1;
-            }
-            else if(guess == -1){
-                end = mid - 1;
-            }
-            else{
-                return mid;
-            }
-        }
+//        while (start <= end){
+//            int mid = start + (end - start)/ 2;
+//            int guess = guess(mid);
+//
+//            if(guess == 1){
+//                start = mid + 1;
+//            }
+//            else if(guess == -1){
+//                end = mid - 1;
+//            }
+//            else{
+//                return mid;
+//            }
+//        }
         return -1;
     }
 }
