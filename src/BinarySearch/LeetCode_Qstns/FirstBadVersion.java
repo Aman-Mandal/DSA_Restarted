@@ -3,6 +3,10 @@ package BinarySearch.LeetCode_Qstns;
 // https://leetcode.com/problems/first-bad-version/
 
 public class FirstBadVersion {
+
+    public static void main(String[] args) {
+
+    }
     /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 

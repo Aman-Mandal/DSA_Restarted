@@ -4,7 +4,9 @@ package BinarySearch.LeetCode_Qstns;
 // There's an API in LeetCode for this question we have to implement that
 
 public class GuessNumberHigherOrLower {
+    public static void main(String[] args) {
 
+    }
     int guessNumber(int n){
         int start = 1;
         int end = n;
