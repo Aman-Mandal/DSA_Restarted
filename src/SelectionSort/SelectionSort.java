@@ -1,5 +1,11 @@
 package SelectionSort;
 
+/*
+
+    In Selection Sort, we take the maximum no. of Array and keep it on the last position ie. swap the max Number with the last Number.
+    But , after keeping at last position we have to skip the sorted part from the algorithm.
+
+ */
 import java.util.Arrays;
 
 public class SelectionSort {
