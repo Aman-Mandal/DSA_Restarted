@@ -18,14 +18,18 @@ public class BubbleSort {
             for (int j = 1; j < arr.length; j++) {
                 if(arr[j] < arr[j-1]){
                     // swap
-                    int temp = arr[j];
-                    arr[j] = arr[j-1];
-                    arr[j-1] = temp;
+                    swap(arr, j, j-1);
                     isSwapped = true;
                 }
             }
             if (!isSwapped)
                 break;
         }
+    }
+
+    private static void swap(int[] arr, int first, int second) {
+        int temp = arr[first];
+        arr[first] = arr[second];
+        arr[second] = temp;
     }
 }
