@@ -14,7 +14,7 @@ public class FindAllNumbersDisappearedInArray {
         int i = 0;
         int n = nums.length;
 
-        while (i < n){
+        while(i < n){
             int correct = nums[i] - 1;
             if(nums[i] != nums[correct]){
                 swap(nums, i, correct);
@@ -23,14 +23,16 @@ public class FindAllNumbersDisappearedInArray {
                 i++;
             }
         }
+
         List<Integer> ans = new ArrayList<>();
-        for (int index = 0; index < n; index++) {
-            if(nums[index] != index+1){
+        for (int index = 0; index < n; index++){
+            if (nums[index] != index+1){
                 ans.add(index+1);
             }
         }
         return ans;
     }
+
 
     static void swap(int[] arr, int first, int second){
         int temp = arr[first];
