@@ -1,6 +1,4 @@
 
-// A function calling another function is called as Recursion.
-
 package Recursion;
 
 public class NumberExample {
