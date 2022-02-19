@@ -20,7 +20,7 @@ public class RotatedBinarySearch {
 
         if(arr[start] <= arr[mid]){
 
-            // target is present in the ascending part
+            // target is present in the left part of arr
             if(target >= arr[start] && target <= arr[mid]){
                 return search(arr, target, start, mid - 1);
             }
@@ -29,9 +29,11 @@ public class RotatedBinarySearch {
                 return search(arr, target, mid + 1, end);
             }
         }
+        // target is in the right part of arr
         if(target >= arr[mid] && target <= end){
             return search(arr, target, mid + 1, end);
         }
+        // else check in remaining arr
         return search(arr, target, start, mid - 1);
     }
 }
