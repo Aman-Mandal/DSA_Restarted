@@ -62,7 +62,9 @@ public class RotatedBinarySearchWithDuplicates {
                 start ++;
 
                 // check if End is pivot
-                if(arr[end] < arr[end-1])
+                if(arr[end] < arr[end-1]){
+                    return end;
+                }
                 end --;
             }
             // left side is sorted so pivot should be in the right
