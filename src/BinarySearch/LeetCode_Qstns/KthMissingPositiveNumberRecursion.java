@@ -1,6 +1,6 @@
 package BinarySearch.LeetCode_Qstns;
 
-public class KthMissingPositiveNumber {
+public class KthMissingPositiveNumberRecursion {
 
     public static void main(String[] args) {
         int[] arr = {2,3,4,6,7,11};
